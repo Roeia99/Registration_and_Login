@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link
+            rel="stylesheet"
+            href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+    />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="registration.js"></script>
+</head>
+<body>
+<div class="col-sm-6 col-sm-offset-3">
+    <h1>Registration</h1>
+
+    <form action="registration.php" method="POST">
+        <div id="name-group" class="form-group">
+            <label for="name">Name</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Full Name"
+            />
+        </div>
+
+        <div id="email-group" class="form-group">
+            <label for="email">Email</label>
+            <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="email@example.com"
+            />
+        </div>
+
+        <div id="password-group" class="form-group">
+            <label for="password">Password</label>
+            <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    placeholder="Password"
+            />
+        </div>
+        <div id="password2-group" class="form-group">
+            <label for="password2">Enter Password again to confirm</label>
+            <input
+                    type="password"
+                    class="form-control"
+                    id="password2"
+                    name="password2"
+                    placeholder="Confirm Password"
+            />
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Submit
+        </button>
+    </form>
+</div>
+</body>
+</html>
