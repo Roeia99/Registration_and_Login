@@ -12,7 +12,7 @@ console_log("Logging in !");
 console_log($_SESSION);
 
 if(!isset($_SESSION["sess_user"])){
-    header("location:/lab1_regitration/login.html");
+    header("location:/Registration_and_Login/login.html");
 } else {
     ?>
     <!doctype html>

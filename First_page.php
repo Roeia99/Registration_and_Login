@@ -21,8 +21,8 @@ console_log($_SESSION);
 </head>
 <header class="text-center">
     <h1>Welcome, please choose between:</h1>
-    <h2> <a href="/lab1_registration/registration.html">Register</a></h2>
-    <h2><a href="/lab1_registration/login.html">Login</a></h2>
+    <h2> <a href="/Registration_and_Login/registration.html">Register</a></h2>
+    <h2><a href="/Registration_and_Login/login.html">Login</a></h2>
 </header>
 </html>
 <?php

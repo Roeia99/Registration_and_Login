@@ -40,23 +40,5 @@ $errors['email'] = "Email already exists";
     $data['errors'] = $errors;
     }
 
-
-
-// if (!$data['success']) {
-//     $errors['email'] = "Email already exists";
-//     $data['errors'] = $errors;
-// } else {
-//     $sql = "INSERT INTO user(name, email, password) VALUES('".$name."','" . $email . "','" . md5($password) . "')";
-//     $result = mysqli_query($connection, $sql);
-//     if ($result) {
-//         session_start();
-//         $_SESSION['sess_user'] = $name;
-//         $data['success'] = true;
-//         $data['message'] = 'Account Successfully Created !';
-//     } else {
-//         $data['success'] = false;
-//         $data['message'] = 'ERROR Inserting to table !';
-//     }
-// }
 mysqli_close($connection);
 echo json_encode($data);

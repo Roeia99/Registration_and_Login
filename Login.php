@@ -44,24 +44,5 @@ if($num_rows!=0)
     $data['errors'] = $errors;
 }
 
-// while($row=mysqli_fetch_assoc($query))
-//     {
-//         $db_username = $row['name'];
-//         $db_email = $row['email'];
-//         $db_password = $row['password'];
-//     }
-//
-// if($num_rows == 1)
-// {
-//         session_start();
-//         $_SESSION['sess_user'] = $db_username;
-//         $data['success'] = true;
-//         $data['message'] = 'Login Successfully !';
-// }
-// else {
-//     $data['success'] = false;
-//     $errors['email'] = "Invalid Email or Password";
-//     $data['errors'] = $errors;
-// }
 mysqli_close($connection);
 echo json_encode($data);

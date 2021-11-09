@@ -27,7 +27,7 @@ $(document).ready(function () {
 
                 } else { // Success
                     $("form").html('<script></script>'+'<div class="alert alert-success">' + data.message + "</div>");
-                    window.location.href = '/lab1_registration/Welcome_page.php';
+                    window.location.href = '/Registration_and_Login/Welcome_page.php';
                  }
             })
                 .fail(function (data) {
