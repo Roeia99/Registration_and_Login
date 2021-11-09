@@ -24,7 +24,7 @@ if(!isset($_SESSION["sess_user"])){
     </head>
     <header class="text-center">
 
-        <h2>Welcome <?=$_SESSION['sess_user'];?>! , <a href="/lab1_registration/logout.php">Logout</a></h2>
+        <h2>Welcome <?=$_SESSION['sess_user'];?>! , <a href="/Registration_and_Login/logout.php">Logout</a></h2>
     </header>
     </html>
     <?php
